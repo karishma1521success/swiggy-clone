@@ -98,17 +98,53 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
     margin: 5px;
+    padding: 10px;
     grid-column-gap: 0.4rem;
     grid-row-gap:2rem;
     border-top: 1px solid gray;
 }
+
+
+.grid-item{
+    position: relative;
+}
+
+.grid-item:after{
+    position: absolute;
+    top: 340px;
+    left: 18px;
+    z-index: 1;
+    content: attr(data-hover);
+    color: rgb(99, 175, 222);
+    width: 254px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    border-top: 1px solid silver;
+    margin-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.grid-item:hover:after{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.grid-item:hover{
+    border: 1px solid grey;
+}
+
+
 
 .wrapper-grid-item{
     display: flex;
     flex-direction: column;
     margin: 0.2rem;
     position: relative;
-    padding: 15px;
+    padding: 20px;
     align-items: space-between;
     column-gap: 20px;
 }
@@ -120,8 +156,8 @@
 
 .status{
     position:absolute;
-    top: -2px;
-    left: -5px;
+    top: 10px;
+    left: 4px;
     background: rgb(58, 60, 65);
     color: rgb(255, 255, 255);
     border-color: rgb(30, 32, 35) transparent;
@@ -188,7 +224,12 @@
 
 .grid-offer{
     margin-top: 15px;
+    margin-bottom: 27px;
+    color: brown;
+}
 
+.above-4{
+    background-color: rgb(65 65 231);
 }
 
 .footer{
