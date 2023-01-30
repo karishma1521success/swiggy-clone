@@ -1,8 +1,9 @@
 @media screen and (max-width:1121px) {
-    /* .rating-time-cost {
+    .rating-time-cost {
         flex-direction: column;    
         align-items: end;
-    } */
+    }
+
     .category {
         flex-direction: column;
     }
@@ -21,14 +22,9 @@
         font-size: 12px;
         
     }
-
-    
-
 }
 
 @media screen and (max-width:1037px) {
-    
-
     .nav-bar {
         flex-direction: column;
     }
@@ -65,8 +61,6 @@
         font-size: 12px;
     }
 }
-
-
 
 @media screen and (max-width:800px) {
     .time,.cost,.grid-info{
