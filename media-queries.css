@@ -1,0 +1,223 @@
+@media screen and (max-width:1121px) {
+    /* .rating-time-cost {
+        flex-direction: column;    
+        align-items: end;
+    } */
+    .category {
+        flex-direction: column;
+    }
+
+    .category-option{
+        justify-content: space-between;
+        width:99%;
+    }
+
+    .category-list{
+        gap: 10px;
+    }
+
+    .rating{
+        width: 40px;
+        font-size: 12px;
+        
+    }
+
+    
+
+}
+
+@media screen and (max-width:1037px) {
+    
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-left,.nav-right{
+        width: 100%;
+        gap: 15px;
+    }
+
+    .main,.footer{
+        top: 88px;
+    }
+
+    .grid-offer{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .food-restuarant{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .grid-info,.time,.cost,.grid-offer{
+        font-size: 13px;
+    }
+ 
+}
+
+@media screen and (max-width:890px) {
+    .grid-info{
+        font-size: 11px;
+    }
+    .grid-item:after{
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .time,.cost,.grid-info{
+        font-size: 10px;
+    }
+
+    .grid-offer,.frequency{
+        font-size: 12px;
+    } 
+    
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .wrapper-company,.wrapper-contact,.wrapper-legal{
+        gap: 12px;
+    }
+
+    .footer span{
+        font-size: 10px;
+    }
+
+    .footer h2{
+        font-size: 14px;
+    }
+
+    .wrapper-download{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .wrapper-download img{
+        width: 150px;
+    }
+
+    .download-section{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .food-restuarant{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media screen and (max-width:560px) {
+    .category-list li{
+        font-size: 9px;
+    }
+    
+    .grid-info,.time,.cost{
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    .grid-offer,.frequency{
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width:500px) {
+    .food-restuarant{
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper-grid-item img{
+        /* height: 10%; */
+    }
+
+    .time,.cost,.grid-info{
+        font-size: 13px;
+    }
+
+    .grid-offer,.frequency{
+        font-size: 10px;
+    }
+
+    .grid-offer{
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+
+    .grid-item:after{
+        margin-bottom: 6px;
+    }
+
+    .rating {
+        width: 40px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .nav-list li{
+        font-size:10px ;
+    }
+
+    .nav-list-item svg{
+        display: inline-block;
+        height: 10px;
+    }
+
+    .category-list li {
+        font-size: 7px;
+    }
+
+    .nav-list{
+        justify-content: flex-start;
+        gap: 3px;
+    }
+
+    .other-location div{
+        font-size: 10px;
+    }
+
+    .wrapper-download img{
+        width: 100px;
+    }
+
+    .footer span {
+        font-size: 8px;
+    }
+
+    .grid-offer,.frequency{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .wrapper-download img{
+        width: 85px;
+    }
+
+    .footer span {
+        font-size: 5px;
+    }
+
+    .category-list li {
+        font-size: 5px;
+    }
+
+    .nav-list li{
+        font-size:7px ;
+    }
+
+    .other-location div{
+        font-size: 7px;
+    }
+}

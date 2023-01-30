@@ -9,8 +9,9 @@
 .full-container{
     display: flex;
     flex-direction: column;
-    margin-left:12px;
-    background-color:lightblue;
+    margin-left:5px;
+    width: 97vw;
+    background-color: rgba(245, 245, 245, 0.472);
 }
 
 .header{
@@ -18,8 +19,8 @@
     position: fixed;
     z-index: 10;
     margin-top: 5px;
-    background-color: whitesmoke;
-    width: 97vw;
+    background-color: #f5f5f542;
+    width: 100%;
 }
 
 .nav-bar{
@@ -65,7 +66,7 @@
     flex-direction: column;
     position: relative;
     top: 75px;
-    width: 97vw;
+    width: 100%;
 
 }
 
@@ -114,7 +115,6 @@
 
 .grid-item{
     position: relative;
-    border: 1px solid black;
 }
 
 .grid-item:after{
@@ -128,21 +128,20 @@
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    /* border-top: 1px solid silver; */
-    margin-bottom: 20px;
+    border-top: 1px solid silver;
+    margin-bottom: 12px;
     padding-top: 7px;
-    /* opacity: 0; */
-    /* visibility: hidden; */
-    opacity: 1;
-    border-top: 1px solid black;
+    opacity: 0;
+    visibility: hidden;
+   
 }
 
-/* .grid-item:hover:after{
+.grid-item:hover:after{
     cursor: pointer;
     visibility: visible;
     opacity: 1;
     
-} */
+}
 
 .grid-item:hover{
     border: 1px solid grey;
@@ -155,8 +154,7 @@
     flex-direction: column;
     margin: 0.2rem;
     position: relative;
-    padding: 15px;
-    align-items: space-between;
+    padding: 15px 15px 0 15px;
     column-gap: 20px;
 }
 
@@ -211,17 +209,9 @@
 .time{
     position: relative;
     font-size:12px;
+    align-self: flex-start;
 }
 
-.dot{
-    position: absolute;
-    font-size: 50px;
-}
-
-.time .dot{
-    top: -44px;
-    left: -13px;
-}
 
 .cost{
     position: relative;
@@ -234,10 +224,12 @@
 }
 
 .grid-offer{
-    margin-top: 15px;
-    margin-bottom: 27px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 12px;
     color: brown;
 }
+
 
 .above-4{
     background-color: rgb(65 65 231);
@@ -248,8 +240,7 @@
     background-color: black;
     grid-template-columns: auto auto auto auto;
     grid-column-gap:2px;
-    width: 97vw;
-    margin: 5px;
+    width: 100%;
     padding:20px;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.795);
@@ -293,75 +284,16 @@
 }
 
 
-@media screen and (max-width:1121px) {
-    .rating-time-cost {
-        flex-direction: column;    
-        align-items: end;
-    }
-    .category {
-        flex-direction: column;
-    }
-
-    .category-option{
-        justify-content: space-between;
-        width:99%;
-    }
-
-    .category-list{
-        gap: 10px;
-    }
-
     
-
-}
-
-@media screen and (max-width:1037px) {
-    .header{
-        width: 94vw;
-    }
-
-    .nav-bar {
-        flex-direction: column;
-    }
-
-    .nav-left,.nav-right{
-        width: 100%;
-        gap: 15px;
-    }
-
-    .main,.footer{
-        top: 88px;
-    }
-
-    .grid-offer{
-        font-size: 10px;
-        font-weight: 400;
-    }
- 
-}
-
-@media screen and (max-width:950px) {
-    .food-restuarant{
-        grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-rows: 1fr 1fr 1fr; */
-    }
-
-}
-
-@media screen and (max-width:700px) {
-    
-    .grid-info{
-        font-size: 6px;
-    }
-    
-    .time,.cost{
-        font-size: 8px;
-    }
-
-    .grid-offer,.frequency{
-        font-size: 12px;
-    }
 
    
+
+     
+
     
-}
+
+    
+
+    
+
+
