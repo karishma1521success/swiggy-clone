@@ -136,10 +136,6 @@
         grid-template-columns: 1fr;
     }
 
-    .wrapper-grid-item img{
-        /* height: 10%; */
-    }
-
     .time,.cost,.grid-info{
         font-size: 13px;
     }
@@ -174,9 +170,6 @@
         height: 10px;
     }
 
-    .category-list li {
-        font-size: 7px;
-    }
 
     .nav-list{
         justify-content: flex-start;
@@ -195,12 +188,16 @@
         font-size: 8px;
     }
 
-    .grid-offer,.frequency{
-        font-size: 7px;
+    .grid-offer{
+        font-size: 10px;
+    }
+
+    .frequency{
+        font-size: 8px;
     }
 }
 
-@media screen and (max-width:280px) {
+@media screen and (max-width:400px) {
     .wrapper-download img{
         width: 85px;
     }
@@ -210,14 +207,18 @@
     }
 
     .category-list li {
-        font-size: 5px;
+        font-size: 8px;
     }
 
     .nav-list li{
-        font-size:7px ;
+        font-size:7px;
     }
 
     .other-location div{
         font-size: 7px;
+    }
+
+    .grid-info{
+        font-size: 12px;
     }
 }
