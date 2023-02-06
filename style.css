@@ -28,8 +28,9 @@
     margin: 0px 0.5rem;
     display: flex;
     position: fixed;
-    background-color: #0000000a;
-    width: 100%;
+    background-color: gainsboro;
+    width: 96%;
+    z-index: 3;
 
 }
 
