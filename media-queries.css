@@ -25,14 +25,14 @@
 }
 
 @media screen and (max-width:1037px) {
-    .nav-bar {
+    /* .nav-bar {
         flex-direction: column;
-    }
+    } */
 
-    .nav-left,.nav-right{
+    /* .nav-left,.nav-right{
         width: 100%;
         gap: 15px;
-    }
+    } */
 
     .main,.footer{
         top: 88px;
@@ -54,6 +54,10 @@
 }
 
 @media screen and (max-width:890px) {
+    .other-location div{
+        font-size: 10px;
+    }
+
     .grid-info{
         font-size: 11px;
     }
@@ -105,8 +109,24 @@
 
 @media screen and (max-width:750px) {
     .food-restuarant{
-        grid-template-columns: 1fr 1fr;
-        
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    .nav-list-item span{
+        font-size: 10px;
+    }
+
+    .nav-list{
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .other-location div{
+        font-size: 8px;
+    }
+     
+    .logo svg{
+        width: 20px;
     }
 }
 
@@ -123,6 +143,20 @@
     .grid-offer,.frequency{
         font-size: 10px;
     } 
+    .nav-list-item span{
+        font-size: 8px;
+        font-weight: 200;
+    }
+
+    .nav-list-item svg{
+        width: 9px;
+        height: 8px;
+    }
+    
+    .other-location div{
+        font-size: 6px;
+        font-weight: 300;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -156,22 +190,22 @@
 
 @media screen and (max-width:450px) {
     .nav-list li{
-        font-size:10px ;
+        font-size:6px ;
     }
 
     .nav-list-item svg{
         display: inline-block;
-        height: 10px;
+        height: 7px;
     }
 
 
     .nav-list{
         justify-content: flex-start;
-        gap: 3px;
+        gap: 6px;
     }
 
     .other-location div{
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .wrapper-download img{
@@ -205,11 +239,7 @@
     }
 
     .nav-list li{
-        font-size:7px;
-    }
-
-    .other-location div{
-        font-size: 7px;
+        font-size:6px;
     }
 
     .grid-info{
