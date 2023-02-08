@@ -192,6 +192,9 @@
     background-color: white;
 }
 
+.food-restuarant a{
+    text-decoration-line: none;
+}
 
 
 .wrapper-grid-item{
@@ -202,6 +205,7 @@
     padding: 15px 15px 0 15px;
     column-gap: 20px;
 }
+
 
 .grid-image img{
     width: 100%;
